@@ -1,0 +1,56 @@
+```json
+{
+  "bot_name": "SILATRIX",
+  "version": "1.0.0",
+  "author": "Sila",
+  "language": "sw",
+  "commands": [
+    {
+      "trigger": "salamu",
+      "response": {
+        "type": "text",
+        "content": "Habari! Karibu kwenye bot ya SILATRIX. Nifanyie nini leo?"
+      }
+    },
+    {
+      "trigger": "msaada",
+      "response": {
+        "type": "text",
+        "content": "Hizi ndizo huduma tunazotoa:\n1. Jua kuhusu bot\n2. Muongozo wa kutumia\n3. Ongea na Admin"
+      }
+    },
+    {
+      "trigger": "maelezo",
+      "response": {
+        "type": "text",
+        "content": "SILATRIX ni bot ya WhatsApp inayokusaidia na mambo ya tech, elimu, na burudani. Imetengenezwa kwa upendo."
+      }
+    },
+    {
+      "trigger": "admin",
+      "response": {
+        "type": "contact",
+        "name": "Admin",
+        "number": "+255612491554"
+      }
+    },
+    {
+      "trigger": "vichekesho",
+      "response": {
+        "type": "text",
+        "content": " YAANI HUNA HELA WALA KAZI ALAFU UNATAKA KUTOBOA? Hahaha! Nakutania tu, usikate tamaa!"
+      }
+    },
+    {
+      "trigger": "goodbye",
+      "response": {
+        "type": "text","content": "Asante kwa kutumia bot ya SILATRIX. Karibu tena muda wowote!"
+      }
+    }
+  ],
+  "error_response": {
+    "type": "text",
+    "content": "Samahani, sijakuelewa. Tafadhali andika neno kama: salamu, msaada, au maelezo."
+  }
+}
+```
