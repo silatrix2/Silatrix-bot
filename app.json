@@ -167,27 +167,6 @@
       "value": "yes",
 
       "required": false
-
-    },
-
-    "HEROKU_API_KEY": {
-
-      "description": "Insert your Heroku API key (required)",
-
-      "value": "",
-
-      "required": true
-
-    },
-
-    "HEROKU_APP_NAME": {
-
-      "description": "Insert your Heroku app name (required)",
-
-      "value": "",
-
-      "required": true
-
     },
 
     "SESSION_ID": {
@@ -345,5 +324,6 @@
   ]
 
 }
+
 
 
